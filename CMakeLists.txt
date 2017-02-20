@@ -5,7 +5,7 @@ project(sounddevices)
 set(CMAKE_CXX_STANDARD 11)
 
 # link with ALSA
-set(CMAKE_CXX_FLAGS "-lasound")
+set(CMAKE_CXX_FLAGS "-lasound -lfftw3")
 
 # add sourcefiles to sourcelist
 set(exe_src
